@@ -1,3 +1,50 @@
+# robots.txt for Kallol Chakrabarti Research Portfolio
+# Website: https://helixoriginator.github.io/kallol-research-hub/
+
+# Allow all search engines to crawl everything
 User-agent: *
 Allow: /
+
+# Sitemap location
 Sitemap: https://helixoriginator.github.io/kallol-research-hub/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+# Most modern bots ignore this, but good practice
+Crawl-delay: 1
+
+# Block specific search engines (if needed - currently allowing all)
+# User-agent: BadBot
+# Disallow: /
+
+# Allow major search engines explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebot
+Allow: /
+
+# Academic and research crawlers
+User-agent: ia_archiver
+Allow: /
+
+# Block common nuisance bots (optional)
+# User-agent: AhrefsBot
+# Disallow: /
+# 
+# User-agent: SemrushBot
+# Disallow: /
