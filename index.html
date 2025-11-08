@@ -92,11 +92,28 @@
             border-radius: 8px;
             padding: 1.5rem;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
         .article-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .article-card.new {
+            border-left: 4px solid #667eea;
+            background: linear-gradient(to right, #f8f9ff 0%, white 100%);
+        }
+        
+        .new-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
         }
         
         .article-card h3 {
@@ -132,7 +149,7 @@
     <div class="header">
         <h1>Kallol Chakrabarti</h1>
         <p>Research on Governance Innovations, Policy Analysis & Public Administration</p>
-        <p>50+ Published Research Papers</p>
+        <p>53 Published Research Papers</p>
     </div>
     
     <div class="contact-info">
@@ -143,10 +160,12 @@
             <a href="https://zenodo.org/search?q=Kallol%20Chakrabarti" target="_blank">Zenodo</a>
             <a href="https://hq.ssrn.com/submissions/MyPapers.cfm?partid=7407085" target="_blank">SSRN</a>
         </div>
-    </div><div class="contact-info" style="background: #fffbf0; border-left: 4px solid #667eea;">
-    <h2>📰 Featured Article</h2>
-    <p><strong>Read on Medium:</strong> <a href="https://medium.com/@kallolchitralimagicpen/who-is-kallol-704cba34212b" target="_blank" style="color: #667eea; font-weight: bold;">Who is Kallol? - A Motivational Story of an Independent Researcher</a></p>
-</div>
+    </div>
+
+    <div class="contact-info" style="background: #fffbf0; border-left: 4px solid #667eea;">
+        <h2>📰 Featured Article</h2>
+        <p><strong>Read on Medium:</strong> <a href="https://medium.com/@kallolchitralimagicpen/who-is-kallol-704cba34212b" target="_blank" style="color: #667eea; font-weight: bold;">Who is Kallol? - A Motivational Story of an Independent Researcher</a></p>
+    </div>
     
     <div class="container">
         <div class="search-box">
@@ -154,6 +173,36 @@
         </div>
         
         <div class="articles-grid" id="articlesGrid">
+            
+            <div class="article-card new">
+                <span class="new-badge">NEW</span>
+                <h3>51. Algorithmic Governance: Digital Keywords Shape Policy Communication</h3>
+                <p>How Digital Keywords Shape Policy Communication and Public Trust in India and Beyond</p>
+                <div class="article-links">
+                    <a href="https://doi.org/10.5281/zenodo.17548163" target="_blank">View Paper</a>
+                    <a href="https://zenodo.org/records/17548163/files/algorithmic-governance-digital-keywords-policy-communication-india.pdf?download=1" target="_blank">Download PDF</a>
+                </div>
+            </div>
+
+            <div class="article-card new">
+                <span class="new-badge">NEW</span>
+                <h3>52. Comprehensive Policy Framework for Assam's Transformational Governance</h3>
+                <p>Strategic Blueprint for Sustainable Development, Regional Integration, and Democratic Strengthening</p>
+                <div class="article-links">
+                    <a href="https://doi.org/10.5281/zenodo.16810091" target="_blank">View Paper</a>
+                    <a href="https://zenodo.org/records/16810091/files/COMPREHENSIVE%20POLICY%20FRAMEWORK%20FOR%20ASSAM.pdf?download=1" target="_blank">Download PDF</a>
+                </div>
+            </div>
+
+            <div class="article-card new">
+                <span class="new-badge">NEW</span>
+                <h3>53. Bridging Educational Divides in Assam</h3>
+                <p>Framework for Quality Education in Remote and Tribal Areas Through SDG-Aligned Policy Innovation</p>
+                <div class="article-links">
+                    <a href="https://doi.org/10.5281/zenodo.16419960" target="_blank">View Paper</a>
+                    <a href="https://zenodo.org/records/16419960/files/Bridging%20Educational%20Divides%20A%20Framework%20for%20Quality%20Education%20in%20Remote%20and%20Tribal%20Areas%20of%20Assam%20Through%20SDG-Aligned%20Policy%20Innovation.pdf?download=1" target="_blank">Download PDF</a>
+                </div>
+            </div>
             
             <div class="article-card">
                 <h3>1. District-Level Analysis of Ayushman Bharat</h3>
